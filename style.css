@@ -383,6 +383,53 @@ article .icon {
   overflow-x: scroll;
 }
 
+/* Enbla link selection style modification */
+/* May have some redunduncy, that may need to be tracked */
+.popup-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Style for the close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ########## */
+#enbla-git-sel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#enbla-git-sel li {
+  margin: 10px 0;
+}
+
+/* Style for the links */
+#enbla-git-sel a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+#enbla-git-sel a:hover {
+  text-decoration: underline;
+  text-underline-offset: auto;
+}
+
 /* POPUP UP AND DOWN HEADLIGHTS!!!! */
 
 .popup {
