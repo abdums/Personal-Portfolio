@@ -6,6 +6,19 @@
   .about-containers {
     flex-wrap: wrap;
   }
+
+  /* fixing contact info and projects overlap during certain window sizes */
+  #projects,
+  #contact {
+    margin-top: 3rem;
+    padding: 2rem 0;
+  }
+
+  /* adjusting section heights */
+  #projects,
+  #contact {
+    height: auto; /* Setting height to auto to fit content */
+  }
 }
 
 @media screen and (max-width: 1200px) {
